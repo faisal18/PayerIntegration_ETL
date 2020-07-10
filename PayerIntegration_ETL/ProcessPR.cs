@@ -73,6 +73,7 @@ namespace PayerIntegration_ETL
                     foreach (System.Data.DataRow dr in DSAllID.Tables[0].Rows)
                     {
                         IDList.Add(dr[0].ToString());
+
                     }
                     foreach (var item in IDList)
                     {
